@@ -1,3 +1,4 @@
+// pages/Tab3.tsx
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import SearchBar from '../components/SearchBar';
 import './Tab3.css';
@@ -7,17 +8,12 @@ const Tab3: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Search Page</IonTitle>
+          <IonTitle>GitHub Search</IonTitle>
         </IonToolbar>
       </IonHeader>
+
       <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large"></IonTitle>
-          </IonToolbar>
-        </IonHeader>
         <SearchBar />
-       
       </IonContent>
     </IonPage>
   );
