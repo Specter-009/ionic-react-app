@@ -3,7 +3,6 @@ import { usePhotoGallery } from '../hooks/usePhotoGallery';
 import { camera } from 'ionicons/icons'; // Change 'add' to 'camera'
 import { Camera, CameraResultType } from '@capacitor/camera';
 import { defineCustomElements } from '@ionic/pwa-elements/loader';
-import ExploreContainer from '../components/ExploreContainer';
 import './Tab2.css';
 
 const Tab2: React.FC = () => {
